@@ -1,0 +1,83 @@
+```html
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Instagram Demo</title>
+<style>
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #fafafa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+
+  .box {
+    width: 320px;
+    padding: 35px 25px;
+    background: white;
+    border: 1px solid #ddd;
+    text-align: center;
+  }
+
+  h1 {
+    font-family: cursive;
+    font-size: 38px;
+    margin-bottom: 30px;
+  }
+
+  input {
+    width: 92%;
+    padding: 12px;
+    margin: 6px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background: #fafafa;
+  }
+
+  button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 12px;
+    border: 0;
+    border-radius: 6px;
+    background: #3897f0;
+    color: white;
+    font-weight: bold;
+  }
+
+  #msg {
+    margin-top: 20px;
+    font-weight: bold;
+  }
+</style>
+</head>
+
+<body>
+
+<div class="box">
+  <h1>Instagram</h1>
+
+  <input type="text" placeholder="Phone number, username, or email">
+  <input type="password" placeholder="Password">
+
+  <button onclick="demo()">Log In</button>
+
+  <div id="msg"></div>
+</div>
+
+<script>
+function demo() {
+  document.getElementById("msg").innerHTML =
+    "😂 PRANK DEMO! Koi password save ya access nahi hua.";
+}
+</script>
+
+</body>
+</html>
+```
+  
